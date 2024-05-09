@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Raleway";
+}
+
+body {
+    padding: 30px;
+    padding-top: 30px;
+    width: 1440px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation .left {
+    width: 80%;
+}
+
+.navigation .right {
+    width: 25%;
+    margin-top: -30px;
+}
+
+.navigation .nav-items {
+    display: flex;
+    vertical-align: center;
+}
+
+.navigation .nav-item {
+    margin: 20px;
+}
+
+.intro,
+.mid {
+    display: flex;
+}
+
+.intro .left,
+.mid .left,
+.access .left {
+    width: 50%;
+}
+
+
+.intro .right,
+.mid .right,
+.access .right {
+    width: 50%;
+}
+
+.intro .left .illustration {
+    height: 80%;
+    width: 80%;
+}
+
+.intro-input {
+    width: 45%;
+    /* height: 35px; */
+    padding: 10px;
+}
+
+.btn-get-started {
+    height: 37px;
+    width: 30%;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-get-started:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.blank {
+    height: 100px;
+}
+
+.curve {
+    height: fit-content;
+    margin-bottom: -6px;
+}
+
+.mid {
+    padding: 50px;
+    background-color: hsl(240, 75%, 98%);
+    padding-bottom: 70px;
+}
+
+.testimonial {
+    width: fit-content;
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow: 4px -3px 5px hsl(0, 0%, 75%);
+    border-radius: 5px;
+}
+
+.img-testimonial {
+    border-radius: 50%;
+    width: 15%;
+}
+
+.author-testimonial {
+    display: flex;
+}
+
+.access {
+    display: flex;
+    color: white;
+    background-color: hsl(238, 22%, 44%);
+    padding: 40px 10px 50px 50px;
+}
+
+.access .left {
+    width: 90%;
+}
+
+.access .right {
+    padding-top: 20px;
+    width: 60%;
+}
+
+.access-input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn-access {
+    height: 37px;
+    width: 30%;
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    border: none;
+}
+
+.footer {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 60px 50px;
+}
+
+.footer-svg {
+    height: 0px;
+    width: 0px;
+}
+
+.footer svg path #b {
+    fill: blue;
+}
+
+.sections--footer {
+    display: flex;
+}
+
+.footer-section {
+    width: 25%;
+    line-height: 30px;
+}
+
+.footer-logo img svg path {
+    fill: #ffffff;
+}
+
+.footer-section-4 {
+    display: flex;
+
+}
+
+.footer-section-4 .footer-icon {
+    margin: 5px;
+    text-align: center;
+    /* height: fit-content; */
+    /* width: fit-content; */
+    border-radius: 50%;
+}
