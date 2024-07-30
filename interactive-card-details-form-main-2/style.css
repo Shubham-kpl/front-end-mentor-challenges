@@ -1,0 +1,141 @@
+* {
+    font-family: 'Space Grotesk';
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    width: 30%;
+    height: 100%;
+    background-color: hsl(278, 68%, 11%);
+}
+
+.card {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.front {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.logo {
+    top: 5%;
+    left: 10%;
+    position: absolute;
+}
+
+
+.atm-number {
+    top: 42%;
+    left: 10%;
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 2.5px;
+}
+
+.name {
+    top: 68%;
+    left: 8%;
+    position: absolute;
+    color: white;
+}
+
+.expiry {
+    left: 208%;
+    position: absolute;
+}
+
+.back {
+    position: relative;
+    left: 23%;
+}
+
+.front img,
+.back img {
+    height: 200px;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+
+.form {
+    align-items: center;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.form-title {
+    font-size: 10px;
+    color: gray;
+    letter-spacing: 1px;
+    /* margin-bottom: 5px; */
+}
+
+.form-bottom {
+    display: flex;
+}
+
+.expiry-form {
+    width: 49%;
+}
+
+.cvc-form {
+    width: 49%;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1.5px solid rgb(215, 207, 207);
+    display: block;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    font-size: 16px;
+    /* color: black; */
+}
+
+.expiry-fields {
+    display: flex;
+}
+
+.expiry-form {
+    margin-right: 25px;
+}
+
+.btn-expiry {
+    width: 49%;
+}
+
+.btn-expiry-1 {
+    margin-right: 10px;
+}
+
+.btn-confirm {
+    color: white;
+    background-color: hsl(278, 68%, 11%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
